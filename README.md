@@ -1,6 +1,3 @@
-# Blog RBAC Backend
-# Blog RBAC Backend
-
 ## Overview
 This repository contains the backend for a blog application that implements Role-Based Access Control (RBAC). It is designed to manage user roles and permissions in a secure and efficient manner. The backend is built using Node.js and Express, with MongoDB for data storage and JWT for authentication.
 
