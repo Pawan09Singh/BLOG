@@ -1,0 +1,58 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  padding: 0;
+}
+
+form {
+  margin: 20px;
+  padding: 20px;
+  background: white;
+  border: 1px solid #ccc;
+  max-width: 400px;
+}
+
+input, textarea {
+  display: block;
+  margin: 10px 0;
+  padding: 10px;
+  width: 100%;
+}
+
+button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+@keyframes flowerFloat1 {
+  0% { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(140vh) rotate(360deg); }
+}
+
+@keyframes flowerFloat2 {
+  0% { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(160vh) rotate(-360deg); }
+}
+
+@keyframes flowerFloat3 {
+  0% { transform: translateY(0) rotate(0deg); }
+  100% { transform: translateY(150vh) rotate(180deg); }
+}
+
+.animate-flowerFloat1 {
+  animation: flowerFloat1 22s linear infinite;
+}
+.animate-flowerFloat2 {
+  animation: flowerFloat2 26s linear infinite;
+}
+.animate-flowerFloat3 {
+  animation: flowerFloat3 20s linear infinite;
+}
